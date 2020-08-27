@@ -13,5 +13,5 @@ def close_db(e=None):
 
 def get_collection():
     db = get_db()
-    collection = db.test_database.test_collection
+    collection = db.urldb.urlcollection
     return collection
